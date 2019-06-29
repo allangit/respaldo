@@ -1,0 +1,46 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+struct circuit{
+
+	float tension, corriente;
+
+}para[20],*pointer=para;
+
+
+void pedir_datos();
+void imprimit_datos(struct circuit *pointer);
+void menu();
+
+
+void main(){
+
+
+
+
+
+}
+
+
+void pedir_datos(){
+
+	for (i=0; i<20; i++){
+
+		printf("Digite el valor de corriente en mA");
+		scanf("%d",&(pointer+i)->corriente);
+		printf("Digite el valor de tension en V");
+                scanf("%d",&(pointer+i)->tension);
+
+
+
+	}
+
+
+}
+void imprimit_datos(struct circuit *pointer) {
+
+	for (i=0; i<20; i++){
+
+                printf("corriente\ttension\t\n"),(pointer+i)->corriente,(pointer+i)->corriente);
+}
+
