@@ -1,4 +1,6 @@
 #!/bin/bash
+
+echo iniciando el la carga
 git init
 git remote add origin https://github.com/allangit/respaldo.git
 git add .
